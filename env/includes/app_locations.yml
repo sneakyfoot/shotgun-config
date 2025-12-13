@@ -40,10 +40,6 @@ apps.tk-multi-demo.location:
   type: app_store
   name: tk-multi-demo
   version: v1.5.3-beta.4
-apps.tk-multi-launchapp.location:
-  type: app_store
-  name: tk-multi-launchapp
-  version: v0.13.5
 apps.tk-multi-loader2.location:
   type: app_store
   name: tk-multi-loader2

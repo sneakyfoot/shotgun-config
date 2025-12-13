@@ -187,10 +187,9 @@ path.windows.<software>: C:\Path\to\the\Software.exe
 ...
 ```
 
-These paths are typically included and used by apps like `tk-multi-launchapp`.
-See the `software_paths.yml` and
-`includes/settings/tk-multi-launchapp.yml` files to see concrete examples
-of how this file is used.
+These paths are typically included and used by apps that need explicit software locations.
+See the `software_paths.yml` and engine/app settings that reference the
+`path.<os>.*` keys for concrete examples of how this file is used.
 
 Questions?
 ----------

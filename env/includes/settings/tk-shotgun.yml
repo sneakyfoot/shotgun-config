@@ -13,7 +13,6 @@
 
 includes:
 - ../engine_locations.yml
-- ./tk-multi-launchapp.yml
 - ./tk-multi-publish2.yml
 - ./tk-multi-screeningroom.yml
 - ./tk-shotgun-folders.yml
@@ -26,9 +25,6 @@ includes:
 # asset
 settings.tk-shotgun.asset:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp"
-    tk-multi-launchmari: "@settings.tk-multi-launchapp.mari"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-folders: "@settings.tk-shotgun-folders"
@@ -38,9 +34,6 @@ settings.tk-shotgun.asset:
 # asset_step
 settings.tk-shotgun.asset_step:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp.shotgun"
-    tk-multi-launchmari: "@settings.tk-multi-launchapp.mari"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
@@ -55,10 +48,6 @@ settings.tk-shotgun.playlist:
 # project
 settings.tk-shotgun.project:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp"
-    tk-multi-launchhiero: "@settings.tk-multi-launchapp.hiero"
-    tk-multi-launchmari: "@settings.tk-multi-launchapp.mari"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
@@ -75,8 +64,6 @@ settings.tk-shotgun.publishedfile:
 # sequence
 settings.tk-shotgun.sequence:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-folders: "@settings.tk-shotgun-folders"
@@ -86,8 +73,6 @@ settings.tk-shotgun.sequence:
 # shot
 settings.tk-shotgun.shot:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-folders: "@settings.tk-shotgun-folders"
@@ -97,9 +82,6 @@ settings.tk-shotgun.shot:
 # shot_step
 settings.tk-shotgun.shot_step:
   apps:
-    tk-multi-launchapp: "@settings.tk-multi-launchapp.shotgun"
-    tk-multi-launchmari: "@settings.tk-multi-launchapp.mari"
-    tk-multi-launchmotionbuilder: "@settings.tk-multi-launchapp.motionbuilder"
     tk-multi-publish2: "@settings.tk-multi-publish2.standalone"
     tk-multi-screeningroom: "@settings.tk-multi-screeningroom.rv"
     tk-shotgun-launchfolder: "@settings.tk-shotgun-launchfolder"
