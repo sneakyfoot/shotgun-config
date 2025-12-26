@@ -320,8 +320,12 @@ paths:
     definition: "@products_root/cache/{name}/{version}/{name}.{wedge}.{frame}.bgeo.sc"
   oom_usd_publish:
     definition: "@products_root/USD/{name}/{version}/{name}.usd"
+  oom_usd_publish_wedged:
+    definition: "@products_root/USD/{name}/{version}/{name}.{wedge}.usd"
   oom_renderpass:
     definition: "@products_root/render/{name}/{version}/{name}.{frame}.exr"
+  oom_renderpass_wedged:
+    definition: "@products_root/render/{name}/{version}/{name}.{wedge}.{frame}.exr"
   oom_comp:
     definition: "@products_root/comp/{name}/{version}/{name}.{frame}.exr"
 
