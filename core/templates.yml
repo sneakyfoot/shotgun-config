@@ -328,6 +328,8 @@ paths:
     definition: "@products_root/render/{name}/{version}/{name}.{wedge}.{frame}.exr"
   oom_comp:
     definition: "@products_root/comp/{name}/{version}/{name}.{frame}.exr"
+  oom_comp_wedged:
+    definition: "@products_root/comp/{name}/{version}/{name}.{wedge}.{frame}.exr"
 
   oom_nuke_dir:
     definition: "@tasks_root/nuke"
